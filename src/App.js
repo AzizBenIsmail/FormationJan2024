@@ -8,11 +8,11 @@ function App() {
     <header class="header">
         <div class="container">
             <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                <li class="social-item"><i class="ti-facebook" aria-hidden="true"></i></li>
+                <li class="social-item"><i class="ti-twitter" aria-hidden="true"></i></li>
+                <li class="social-item"><i class="ti-google" aria-hidden="true"></i></li>
+                <li class="social-item"><i class="ti-instagram" aria-hidden="true"></i></li>
+                <li class="social-item"><i class="ti-github" aria-hidden="true"></i></li>
             </ul>  
             <div class="header-content">
                 <h4 class="header-subtitle" >Hello, I am</h4>
@@ -80,11 +80,11 @@ function App() {
                     <li><span>Address</span> :  12345 Fake ST NoWhere AB Country.</li>
                 </ul>
                 <ul class="social-icons pt-3">
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                    <li class="social-item"><a class="social-link" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
+                    <li class="social-item"><i class="ti-facebook" aria-hidden="true"></i></li>
+                    <li class="social-item"><i class="ti-twitter" aria-hidden="true"></i></li>
+                    <li class="social-item"><i class="ti-google" aria-hidden="true"></i></li>
+                    <li class="social-item"><i class="ti-instagram" aria-hidden="true"></i></li>
+                    <li class="social-item"><i class="ti-github" aria-hidden="true"></i></li>
                 </ul>  
             </div>
             <div class="col-lg-4 about-card">
@@ -445,25 +445,25 @@ function App() {
             <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
             <div class="portfolio">
                 <div class="filters">
-                    <a href="#" data-filter=".new" class="active">
+                    <div data-filter=".new" class="active">
                         New
-                    </a>
-                    <a href="#" data-filter=".advertising">
+                    </div>
+                    <div  data-filter=".advertising">
                         Advertising
-                    </a>
-                    <a href="#" data-filter=".branding">
+                    </div>
+                    <div  data-filter=".branding">
                         Branding
-                    </a>
-                    <a href="#" data-filter=".web">
+                    </div>
+                    <div  data-filter=".web">
                         Web
-                    </a>
+                    </div>
                 </div>
                 <div class="portfolio-container"> 
                     <div class="col-md-6 col-lg-4 web new">
                         <div class="portfolio-item">
                             <img src="assets/imgs/web-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates"/>
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
+                                <div class="img-popup" href="assets/imgs/web-1.jpg"></div>
                                 <div class="text-holder">
                                     <h6 class="title">WEB</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -475,7 +475,7 @@ function App() {
                         <div class="portfolio-item">
                             <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates"/>
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
+                                <div class="img-popup" href="assets/imgs/web-2.jpg"></div>
                                 <div class="text-holder">
                                     <h6 class="title">WEB</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -487,7 +487,7 @@ function App() {
                         <div class="portfolio-item">
                             <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates"/>                         
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                                <div class="img-popup" href="assets/imgs/advertising-2.jpg"></div>
                                 <div class="text-holder">
                                     <h6 class="title">ADVERSTISING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -499,7 +499,7 @@ function App() {
                         <div class="portfolio-item">
                             <img src="assets/imgs/web-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates"/>
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
+                                <div class="img-popup" href="assets/imgs/web-4.jpg"></div>
                                 <div class="text-holder">
                                     <h6 class="title">WEB</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -512,7 +512,7 @@ function App() {
                         <div class="portfolio-item">
                             <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates"/>                               
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
+                                <div class="img-popup" href="assets/imgs/advertising-1.jpg"></div>
                                 <div class="text-holder">
                                     <h6 class="title">ADVERSITING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -524,7 +524,7 @@ function App() {
                         <div class="portfolio-item">
                             <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates"/>  
                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
+                                <div class="img-popup" href="assets/imgs/web-3.jpg"></div>
                                 <div class="text-holder">
                                     <h6 class="title">WEB</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -536,7 +536,7 @@ function App() {
                         <div class="portfolio-item">
                             <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates"/>       
                            <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
+                                <div class="img-popup" href="assets/imgs/advertising-3.jpg"></div>
                                 <div class="text-holder">
                                     <h6 class="title">ADVERSITING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -548,7 +548,7 @@ function App() {
                         <div class="portfolio-item">
                             <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates"/>            
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
+                                <div class="img-popup" href="assets/imgs/advertising-4.jpg"></div>
                                 <div class="text-holder">
                                     <h6 class="title">ADVERTISING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -561,7 +561,7 @@ function App() {
                         <div class="portfolio-item">
                             <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates"/>                        
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
+                                <div class="img-popup" href="assets/imgs/branding-1.jpg"></div>
                                 <div class="text-holder">
                                     <h6 class="title">BRANDING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -573,7 +573,7 @@ function App() {
                         <div class="portfolio-item">
                             <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates"/>  
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
+                                <div class="img-popup" href="assets/imgs/branding-2.jpg"></div>
                                 <div class="text-holder">
                                     <h6 class="title">BRANDING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -585,7 +585,7 @@ function App() {
                         <div class="portfolio-item">
                             <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates"/>   
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
+                                <div class="img-popup" href="assets/imgs/branding-3.jpg"></div>
                                 <div class="text-holder">
                                     <h6 class="title">BRANDING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -597,7 +597,7 @@ function App() {
                         <div class="portfolio-item">
                             <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates"/>                      
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
+                                <div class="img-popup" href="assets/imgs/branding-4.jpg"></div>
                                 <div class="text-holder">
                                     <h6 class="title">BRANDING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -609,7 +609,7 @@ function App() {
                         <div class="portfolio-item">
                             <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates"/>          
                             <div class="content-holder">
-                                <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
+                                <div class="img-popup" href="assets/imgs/branding-5.jpg"></div>
                                 <div class="text-holder">
                                     <h6 class="title">BRANDING</h6>
                                     <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
@@ -635,9 +635,9 @@ function App() {
                         <h6 class="title">Consectetur adipisicing elit</h6>
 
                         <p class="post-details">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 234</a>
-                            <a href="#"><i class="ti-comment"></i> 123</a>
+                            <div href="#">By: Admin</div>
+                            <div href="#"><i class="ti-heart text-danger"></i> 234</div>
+                            <div href="#"><i class="ti-comment"></i> 123</div>
                         </p>
                         
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit delectus voluptates, repellat ipsum culpa id deleniti. Rerum debitis facilis accusantium neque numquam mollitia modi quasi distinctio.</p>
@@ -645,7 +645,7 @@ function App() {
                         <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b></p>
                         <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>
 
-                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                        <div href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></div>
                     </div>
                 </div>
                  {/* end of blog wrapper -->
@@ -659,14 +659,14 @@ function App() {
                         <h6 class="title">Explicabo illo</h6>
 
                         <p class="post-details">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 456</a>
-                            <a href="#"><i class="ti-comment"></i> 264</a>
+                            <div href="#">By: Admin</div>
+                            <div href="#"><i class="ti-heart text-danger"></i> 456</div>
+                            <div href="#"><i class="ti-comment"></i> 264</div>
                         </p>
                         
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
 
-                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                        <div href="#" class="read-more">Read more </div>
                     </div>
                 </div>
                 {/* <!-- end of blog wrapper -->
@@ -679,14 +679,14 @@ function App() {
                         <h4 class="title">Porro Quisqua</h4>
 
                         <p class="post-details">
-                            <a href="#">By: Admin</a>
-                            <a href="#"><i class="ti-heart text-danger"></i> 431</a>
-                            <a href="#"><i class="ti-comment"></i> 312</a>
+                            <div href="#">By: Admin</div>
+                            <div href="#"><i class="ti-heart text-danger"></i> 431</div>
+                            <div href="#"><i class="ti-comment"></i> 312</div>
                         </p>
                         
                         <p> consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
 
-                        <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                        <div href="#" class="read-more">Read more </div>
                     </div>
                 </div>
                 {/* <!-- end of blog wrapper --> */}
@@ -745,13 +745,6 @@ function App() {
                                 <h6 class="d-inline">Email :<br/> <span class="text-muted">info@website.com</span></h6>
                             </div>
                         </div>
-                        <ul class="social-icons pt-4">
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-twitter" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                            <li class="social-item"><a class="social-link text-dark" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
-                        </ul> 
                     </div>
                 </div>
             </div>
@@ -761,7 +754,7 @@ function App() {
     <footer class="footer py-3">
         <div class="container">
             <p class="small mb-0 text-light">
-                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a> 
+                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <span class="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span> 
             </p>
         </div>
     </footer>
